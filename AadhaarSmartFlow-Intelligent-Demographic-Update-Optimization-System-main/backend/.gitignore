@@ -1,0 +1,62 @@
+# ------------------------
+# Environment Variables
+# ------------------------
+.env
+.env.*
+
+# ------------------------
+# Python
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+ENV/
+env/
+backup/
+
+# ------------------------
+# Flask
+# ------------------------
+instance/
+*.sqlite3
+*.db
+
+# ------------------------
+# ML / Data Files (Optional – keep if required)
+# Uncomment if you DO NOT want to push models/datasets
+*.pkl
+ *.csv
+*.json
+
+# ------------------------
+# Uploads (User Documents)
+# ------------------------
+uploads/
+
+# ------------------------
+# Node / Frontend
+# ------------------------
+node_modules/
+dist/
+build/
+
+# ------------------------
+# OS Files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# IDE / Editor
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
